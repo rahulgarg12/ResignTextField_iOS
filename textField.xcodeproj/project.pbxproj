@@ -19,6 +19,8 @@
 		355E6C7E1962DD3600A95169 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355E6C661962DD3600A95169 /* UIKit.framework */; };
 		355E6C861962DD3600A95169 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 355E6C841962DD3600A95169 /* InfoPlist.strings */; };
 		355E6C881962DD3600A95169 /* textFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 355E6C871962DD3600A95169 /* textFieldTests.m */; };
+		355E6C941962DD8B00A95169 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355E6C921962DD8B00A95169 /* ViewController.m */; };
+		355E6C951962DD8B00A95169 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 355E6C931962DD8B00A95169 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		355E6C831962DD3600A95169 /* textFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "textFieldTests-Info.plist"; sourceTree = "<group>"; };
 		355E6C851962DD3600A95169 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		355E6C871962DD3600A95169 /* textFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textFieldTests.m; sourceTree = "<group>"; };
+		355E6C911962DD8B00A95169 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		355E6C921962DD8B00A95169 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		355E6C931962DD8B00A95169 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				355E6C721962DD3600A95169 /* AppDelegate.m */,
 				355E6C741962DD3600A95169 /* Images.xcassets */,
 				355E6C691962DD3600A95169 /* Supporting Files */,
+				355E6C911962DD8B00A95169 /* ViewController.h */,
+				355E6C921962DD8B00A95169 /* ViewController.m */,
+				355E6C931962DD8B00A95169 /* ViewController.xib */,
 			);
 			path = textField;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				355E6C6D1962DD3600A95169 /* InfoPlist.strings in Resources */,
+				355E6C951962DD8B00A95169 /* ViewController.xib in Resources */,
 				355E6C751962DD3600A95169 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355E6C941962DD8B00A95169 /* ViewController.m in Sources */,
 				355E6C731962DD3600A95169 /* AppDelegate.m in Sources */,
 				355E6C6F1962DD3600A95169 /* main.m in Sources */,
 			);
